@@ -17,7 +17,7 @@ A fun, lightweight machine learning web app that predicts the **likelihood that 
 ## Demo
 
 **To view the full demo, check the link above.**  
-Incase link is not working/available, run locally.
+[Try the app](https://crushpredictor.streamlit.app)
 
 ---
 
