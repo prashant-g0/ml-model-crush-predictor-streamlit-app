@@ -26,7 +26,7 @@ Incase link is not working/available, run locally.
 ### 1. Clone the repository
 
 ```bash
-git clone [<your-repo-link>](https://github.com/prashant-g0/ml-model-crush-predictor-streamlit-app.git)
+git clone https://github.com/prashant-g0/ml-model-crush-predictor-streamlit-app.git
 cd ml-model-crush-predictor-streamlit-app
 ```
 
