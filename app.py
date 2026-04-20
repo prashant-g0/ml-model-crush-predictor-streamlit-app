@@ -32,7 +32,12 @@ st.write("""
     10. 🎉 Do they invite you to hang out?  
 """)
 st.write("""
-The user evaluates behavioral signals on a scale from 1 to 10. The model then analyzes these inputs to predict the likelihood (%) of your crush liking you back.
+The user evaluates behavioral signals on a scale from 1 to 10. 
+The model then analyzes these inputs to predict the likelihood (%) of your crush liking you back.\n
+**Output**\n
+- Predicted value less than 45 : Very Less chance\n
+- Predicted value less than 75: Decent chance\n
+- Predicted value greater than 75: Very high chance
 """)
 
 st.success("Go to the **Prediction** page from the sidebar!")
@@ -41,6 +46,9 @@ st.divider()
 st.write("""
 Made With ❤️ by Prashant Gupta. A fun project to learn mahine learning.
 """)
-st.link_button("GitHub", "https://www.github.com/prashant-g0")
-st.link_button("LinkedIn", "https://www.linkedin.com/in/prashant-g0")
+col1, col2, col3, col4, col5, col6 = st.columns(6)
+with col1:
+    st.link_button("GitHub", "https://www.github.com/prashant-g0")
+with col2:
+    st.link_button("LinkedIn", "https://www.linkedin.com/in/prashant-g0")
 
